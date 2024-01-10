@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    
+}
+.container{
+    width: 40%;
+    margin: auto ; 
+    padding: 30px 40px;
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #70e000;
+}
+.input{
+    
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.input input{
+    width: 70%;
+    border: 2px solid #d1d3d4;
+    font-size: 15px;
+    color: #111111;
+    padding: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.input input:focus{
+    outline: none;
+    border-color: #abff4f;
+}
+.input button{
+    float: right;
+    width: 20%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #70e000;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    padding: 12px;
+}
+#lists{
+    background-color: #fff;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.edit{
+    background-color: #c7f9cc;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.save{
+    background-color: #00b4d8;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+}
+.delete{
+    background-color: #ff4d6d;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+}
+.inputs{
+    border-radius: 5px;
+    width: 40%;
+    padding: 10px;
+    border: 2px solid #d1d3d4;
+    font-size: 15px;
+    font-weight: 500;
+}
+.inputs:focus{
+    outline: none;
+    border-color: #abff4f;
+}
